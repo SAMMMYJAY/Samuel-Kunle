@@ -1,0 +1,232 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./hotel.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 110px;
+    height: auto ;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font: size 70px;
+} 
+
+
+.button{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color:#fff;
+    color: #000;
+}
+
+.production{
+    display: grid;
+    position: absolute;
+    margin-top: 29%;
+    color: black;
+    width: 30%;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgb(20, 5, 223);
+    opacity: 75%;
+    margin-left: 10px;
+}
+
+.pro{
+    position: absolute;
+    color: black;
+    font-style: italic;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 35%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(214, 214, 104);
+    opacity: 75%;
+}
+
+.las{
+    padding-top: 27%;
+    padding-left: 32%;
+    border-width: 20cm;
+}
+
+.product{ 
+    margin-top: 5%;
+    text-align: center;
+}
+
+.gg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    height: 360px;
+}
+
+#pic1{
+    position: absolute;
+    width: 24%;
+    height: 239px;
+    padding-left: 50%;
+}
+
+#pic2{
+    position: absolute;
+    width: 24%; 
+    padding-left: 75%;
+    height: 239px;
+}
+
+.cool{
+    text-align: center;
+}
+
+#pic3{
+    position: absolute;
+    width: 24%;
+    height: 239px;
+    padding-left: 25%;
+}
+
+#pic4{
+    position:absolute ;
+    width: 24%;
+    height: 239px;
+}
+
+#five{
+    height: 360px;
+    border-radius: 10%;
+}
+
+#six{
+    height: 360px;
+    border-radius: 10%;
+}
+
+#seven{
+    height: 360px;
+    border-radius: 10%;
+}
+
+.des{
+    margin-top: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.nit{
+    position: absolute;
+    margin-top: 4%;
+    padding-left: 80%;
+}
+
+#sport1{
+    position: absolute;
+    display: flex;
+    padding-left: 71%;
+    padding-top: 8%;
+    color: red;
+}
+
+.din{
+    position: absolute;
+    margin-top: 20%;
+    padding-left: 80%;
+}
+
+#sport2{
+    position: absolute;
+    display: flex;
+    padding-left: 71%;
+    padding-top: 23%;
+    color: cornsilk;
+}
+
+.ver{
+    position: absolute;
+    margin-top: 37%;
+    padding-left: 78%;
+}
+
+#sport3{
+    position: absolute;
+    display: flex;
+    padding-left: 71%;
+    margin-top: 42%;
+    color: rgb(21, 128, 0);
+    opacity: 90%;  
+}
+
+#sport4{
+    padding-right: 30%;
+}
+
+
+
+
+
+
+
+
